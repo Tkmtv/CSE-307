@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML Tables</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <main>
+            <!--format table-->
+            <table border="0px">
+                <colgroup>
+                    <col style="width: 200px;" />
+                    <col style="width: 200px;" />
+                </colgroup>
+                <tbody>
+                    <!--header-->
+                    <tr>
+                        <th colspan="2">
+                            <i>Fresh Fruits</i>
+                        </th>
+                    </tr>
+                    <!--para-->
+                    <tr>
+                        <td>
+                            <p>
+                                It has long been known that a diet that includes
+                                at least a few servings of fresh fruit every day
+                                will help keep you healthy, fit and trim.
+                            </p>
+                        </td>
+                        <td>
+                            <img src="./material/fruit.jpg" width="90%" alt="fruit" loading="lazy" />
+                        </td>
+                    </tr>
+                    <!--nested table-->
+                    <tr>
+                        <td>
+                            <table border="1px" cellpadding="5px">
+                                <tbody>
+                                    <!--line 1-->
+                                    <tr>
+                                        <td colspan="3" rowspan="1">
+                                            <p>Title goes here</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>A</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>B</p>
+                                        </td>
+                                    </tr>
+                                    <!--line 2-->
+                                    <tr>
+                                        <td colspan="1" rowspan="3">
+                                            <p>C</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>D</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>E</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>F</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>G</p>
+                                        </td>
+                                    </tr>
+                                    <!--line 3-->
+                                    <tr>
+                                        <td colspan="1" rowspan="1">
+                                            <p>H</p>
+                                        </td>
+                                        <td colspan="2" rowspan="1">
+                                            <p>I</p>
+                                        </td>
+                                        <td colspan="1" rowspan="2">
+                                            <p>J</p>
+                                        </td>
+                                    </tr>
+                                    <!--line 4-->
+                                    <tr>
+                                        <td colspan="1" rowspan="1">
+                                            <p>K</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>L</p>
+                                        </td>
+                                        <td colspan="1" rowspan="1">
+                                            <p>M</p>
+                                        </td>
+                                    </tr>
+                                    <!--line 5-->
+                                    <tr>
+                                        <td colspan="1" rowspan="1">
+                                            <p>N</p>
+                                        </td>
+                                        <td colspan="4" rowspan="1">
+                                            <p>O</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+
+</html>
