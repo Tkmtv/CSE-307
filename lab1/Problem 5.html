@@ -4,32 +4,449 @@
     <head>
         <title>HTML Tables</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css"
-            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/7de8aab842.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <header>
-            <!--phone-->
+            <!--contact-->
             <div>
-                <i class="fa fa-phone" aria-hidden="true">Hotline:</i>
-                <p><b>0968 159 239</b></p>
+                <!--phone-->
+                <div>
+                    <i class="fas fa-phone-alt"> Hotline: </i>
+                    <p><b>0968 159 239</b></p>
+                </div>
+                <!--address-->
+                <div>
+                    <i class="fas fa-map-marker-alt"> Địa chỉ: </i>
+                    <a href="https://goo.gl/maps/Gtzx9NWGkhfzqQyQ7"><b>01 Nguyễn Cửu Vân, Bình Thạch, TP.HCM</b></a>
+                </div>
+                <!--login-->
+                <div>
+                    <a href="#">
+                        <b>Đăng nhập </b>
+                    </a>
+                    <p>hoặc </p>
+                    <a href="#">
+                        <b>Tạo tài khoản mới</b>
+                    </a>
+                </div>
             </div>
-            <!--address-->
+            <!--Logo line-->
             <div>
-                <i class="fa fa-map-marker" aria-hidden="true">Địa chỉ:</i>
-                <a href="https://goo.gl/maps/Gtzx9NWGkhfzqQyQ7"><b>01 Nguyễn Cửu Vân, Bình Thạch, TP.HCM</b></a>
+                <!--logo-->
+                <a href="#">
+                    <img src="./material/logo.jpg" alt="logo" loading="lazy">
+                </a>
+                <!--search box-->
+                <form method="GET" action="#">
+                    <input type="text" name="search" placeholder="Tìm kiếm...">
+                    <button type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <!--cart-->
+                <div>
+                    <button type="button">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    <p>3 sản phẩm</p>
+                    <p>
+                        <span style="color: red; font-weight: bold;">
+                            1,289,000 đ
+                        </span>
+                    </p>
+                </div>
             </div>
+            <!--nav-->
+            <nav>
+                <ul>
+                    <!-- trang chu-->
+                    <li>
+                        <a href="#">TRANG CHỦ </a>
+                    </li>
+                    <!-- hoa sinh nhat-->
+                    <li>
+                        <a href="#">HOA SINH NHẬT </a>
+                    </li>
+                    <!-- hoa tinh yeu-->
+                    <li>
+                        <a href="#">HOA TÌNH YÊU </a>
+                    </li>
+                    <!-- hoa chuc mung-->
+                    <li>
+                        <a href="#">HOA CHÚC MỪNG </a>
+                    </li>
+                    <!-- hoa van phong-->
+                    <li>
+                        <a href="#">HOA VĂN PHÒNG</a>
+                    </li>
+                    <!-- chu de-->
+                    <li>
+                        <a href="#">CHỦ ĐỀ</a>
+                    </li>
+                    <!-- thiet ke-->
+                    <li>
+                        <a href="#">THIẾT KẾ</a>
+                    </li>
+                    <!-- the loai-->
+                    <li>
+                        <a href="#">THỂ LOẠI</a>
+                    </li>
+                    <!-- qua tang-->
+                    <li>
+                        <a href="#">QUÀ TẶNG</a>
+                    </li>
+                </ul>
+            </nav>
+
         </header>
+
         <main>
-            <section>
+            <!--image slider-->
+            <div>
+                <a href="#">
+                    <img src="./material/slide.jpg" alt="discount20" loading="lazy">
+                </a>
+                <a href="#">
+                    <img src="./material/adv_1.jpg" alt="freeship" loading="lazy">
+                </a>
+                <a href="#">
+                    <img src="./material/adv_2.jpg" alt="discount50" loading="lazy">
+                </a>
+            </div>
 
-            </section>
-            <aside>
+            <!--left side-->
+            <div>
+                <!--poppular product-->
+                <section>
+                    <!--header-->
+                    <div>
+                        <h1>
+                            SẢN PHẨM ƯA CHUỘNG
+                        </h1>
+                    </div>
+                    <!--content-->
+                    <a href="#">
+                        <article>
+                            <img src="./material/product1.jpg" alt="flower" loading="lazy">
+                            <!--discount value-->
+                            <div>
+                                <p>10%</p>
+                            </div>
 
-            </aside>
+                            <h2>
+                                Khai trương hồng phát 2
+                            </h2>
+                            <!--code-->
+                            <p>VS035</p>
+                            <!--price old-->
+                            <p>
+                                <del>890,000 đ</del>
+                            </p>
+                            <!--price current-->
+                            <p>
+                                <span style="color: red; font-weight: bold;">
+                                    807,500 đ
+                                </span>
+                            </p>
+                        </article>
+                    </a>
+                    <!--ads banner-->
+                    <a href="#">
+                        <img src="./material/ads_banner.jpg" alt="ads" loading="lazy">
+                    </a>
+                </section>
+
+                <!--service-->
+                <div>
+                    <article>
+                        <div>
+                            <i class="fas fa-truck fa-flip-horizontal fa-3x"></i>
+                        </div>
+                        <h1>GIAO HÀNG MIỄN PHÍ</h1>
+                        <P>Chúng tôi giao hàng miễn phí trong nội thành</P>
+                    </article>
+
+                    <article>
+                        <div>
+                            <i class="fas fa-comments fa-3x"></i>
+                        </div>
+                        <h1>GIAO HÀNG MIỄN PHÍ</h1>
+                        <P>Mang đến cho Quý Khách những sản phẩm tốt nhất</P>
+                    </article>
+
+                    <article>
+                        <div>
+                            <i class="fas fa-dollar-sign fa-3x"></i>
+                        </div>
+                        <h1>GIAO HÀNG MIỄN PHÍ</h1>
+                        <P>Cam kết giá thành & dịch vụ sau bán hàng tốt nhất</P>
+                    </article>
+                </div>
+
+            </div>
+
+            <!--right side-->
+            <div>
+                <!--support-->
+                <section>
+                    <h1>TƯ VẤN HỖ TRỢ</h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <div>
+                                    <i class="fas fa-user-alt fa-3x"></i>
+                                </div>
+                                <h2>Ms. Nguyễn Kiều Diễm</h2>
+                                <img src="./material/online.jpg" alt="online" loading="lazy">
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div>
+                                    <i class="fas fa-user-alt fa-3x"></i>
+                                </div>
+                                <h2>Mr. Hoàng Huy Tuấn</h2>
+                                <img src="./material/online.jpg" alt="online" loading="lazy">
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div>
+                                    <i class="fas fa-user-alt fa-3x"></i>
+                                </div>
+                                <h2>Email</h2>
+                                <p>
+                                    <span style="color: red; font-weight: bold;">
+                                        support@violetonwednesday.com
+                                    </span>
+                                </p>
+                            </article>
+                        </li>
+                    </ul>
+                    <!--hotline-->
+                    <img src="./material/hotline.jpg" alt="hotline" loading="lazy">
+                </section>
+                <!--discount items-->
+                <section>
+                    <h1>SẢN PHẨM KHUYẾN MÃI</h1>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <article>
+                                    <img src="./material/product1.jpg" alt="flower" loading="lazy">
+                                    <!--discount value-->
+                                    <div>
+                                        <p>10%</p>
+                                    </div>
+
+                                    <h2>
+                                        Khai trương hồng phát 2
+                                    </h2>
+                                    <!--code-->
+                                    <p>VS035</p>
+                                    <!--price old-->
+                                    <p>
+                                        <del>890,000 đ</del>
+                                    </p>
+                                    <!--price current-->
+                                    <p>
+                                        <span style="color: red; font-weight: bold;">
+                                            807,500 đ
+                                        </span>
+                                    </p>
+                                </article>
+                            </a>
+                            <hr>
+                        </li>
+
+                    </ul>
+                </section>
+                <!--news-->
+                <section>
+                    <h1>TIN TỨC</h1>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <article>
+                                    <img src="./material/product1.jpg" alt="flower" loading="lazy">
+                                    <h2>Hoa tươi VOW khuyến mãi gói event tưng bừng</h2>
+                                    <i class="far fa-calendar-alt"> 18/17/2015</i>
+                                    <hr>
+                                </article>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <!--payment method-->
+                <section>
+                    <h1>THÔNG TIN THANH TOÁN</h1>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <article>
+                                    <i class="fas fa-check"></i>
+                                    <h2> COD</h2>
+                                    <hr>
+                                </article>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <!--Connect-->
+                <section>
+                    <h1>KẾT NỐI VỚI VOW</h1>
+                </section>
+            </div>
         </main>
+
         <footer>
+            <!-- navigation??-->
+            <div>
+                <p>
+                    <b>HỆ THỐNG</b>
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">Hoa sinh nhật</a>
+                    </li>
+                    <li>
+                        <a href="#">Hoa cưới</a>
+                    </li>
+                    <li>
+                        <a href="#">Hoa chúc mừng</a>
+                    </li>
+                    <li>
+                        <a href="#">Chủ dề</a>
+                    </li>
+                    <li>
+                        <a href="#">Thiết kế</a>
+                    </li>
+                    <li>
+                        <a href="#">Hoa theo thể loại</a>
+                    </li>
+                    <li>
+                        <a href="#">Quà tặng</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- cong ty-->
+            <div>
+                <p>
+                    <b>CÔNG TY</b>
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="#">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="#">Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="#">Dính sách thành viên</a>
+                    </li>
+                    <li>
+                        <a href="#">Chương trình khuyến mãi</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- cong ty2-->
+            <div>
+                <p>
+                    <b>CÔNG TY</b>
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">Hướng dẫn đặt hàng</a>
+                    </li>
+                    <li>
+                        <a href="#">Phương thức thanh toán</a>
+                    </li>
+                    <li>
+                        <a href="#">Điều khoản mua hàng</a>
+                    </li>
+                    <li>
+                        <a href="#">Phí vận chuyển</a>
+                    </li>
+                    <li>
+                        <a href="#">Ý nghĩa các loài hoa</a>
+                    </li>
+                    <li>
+                        <a href="#">Chăm sóc và bảo quản hoa</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- contact-->
+            <div>
+                <p>
+                    <b>VIOLET ON WEDNESDAY</b>
+                </p>
+                <ul>
+                    <!--address-->
+                    <li>
+                        <p>
+                            <b>Địa chỉ</b>
+                        </p>
+                        <p>01 Nguyễn Cửu Vân, Bình Thạch, TP.HCM</p>
+                    </li>
+                    <!--phone-->
+                    <li>
+                        <p>
+                            <b>Điện thoại</b>
+                        </p>
+                        <p>08 38 40 90 92</p>
+                    </li>
+                    <!--hotline-->
+                    <li>
+                        <p>
+                            <b>Hotline</b>
+                        </p>
+                        <p>0968 159 239</p>
+                    </li>
+                    <!--mail-->
+                    <li>
+                        <p>
+                            <b>Mọi ý kiến vui lòng gửi về</b>
+                        </p>
+                        <p>support@violetonwednesday.com</p>
+                    </li>
+
+                </ul>
+                <!--social media-->
+                <ul>
+                    <!--fb-->
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <!--yt-->
+                    <li>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <!--twitter-->
+                    <li>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <!--g+-->
+                    <li>
+                        <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                    </li>
+                    <!--insta-->
+                    <li>
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--copyright-->
+            <div>
+                <p>
+                    &copy; 2015 Viotlet on Wednesday Store. All Right Reserved. Sponsored by Letsop Solution
+                </p>
+            </div>
 
         </footer>
     </body>
