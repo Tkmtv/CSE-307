@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>HTML Tables</title>
+        <title>Problem 7</title>
         <meta charset="UTF-8">
         <script src="https://kit.fontawesome.com/7de8aab842.js" crossorigin="anonymous"></script>
     </head>
@@ -99,207 +99,186 @@
                     </li>
                 </ul>
             </nav>
+            <!--nav 2-->
+            <nav>
+                <a href="">TRANG CHỦ</a>
+                <P> > </P>
+                <a href="">TÀI KHOẢN CỦA BẠN</a>
+            </nav>
 
         </header>
 
         <main>
-            <!--image slider-->
-            <div>
-                <a href="#">
-                    <img src="./material/slide.jpg" alt="discount20" loading="lazy">
-                </a>
-                <a href="#">
-                    <img src="./material/adv_1.jpg" alt="freeship" loading="lazy">
-                </a>
-                <a href="#">
-                    <img src="./material/adv_2.jpg" alt="discount50" loading="lazy">
-                </a>
-            </div>
 
-            <!--left side-->
-            <div>
-                <!--poppular product-->
-                <section>
-                    <!--header-->
-                    <h1>
-                        SẢN PHẨM ƯA CHUỘNG
-                    </h1>
-                    <!--content-->
-                    <a href="#">
-                        <article>
-                            <img src="./material/product1.jpg" alt="flower" loading="lazy">
-                            <!--discount value-->
-                            <div>
-                                <p>10%</p>
-                            </div>
-
-                            <h2>
-                                Khai trương hồng phát 2
-                            </h2>
-                            <!--code-->
-                            <p>VS035</p>
-                            <!--price old-->
-                            <p>
-                                <del>890,000 đ</del>
-                            </p>
-                            <!--price current-->
-                            <p>
-                                <span style="color: red; font-weight: bold;">
-                                    807,500 đ
-                                </span>
-                            </p>
-                        </article>
-                    </a>
-                    <!--ads banner-->
-                    <a href="#">
-                        <img src="./material/ads_banner.jpg" alt="ads" loading="lazy">
-                    </a>
-                </section>
-
-            </div>
-
-            <!--right side-->
-            <div>
-                <!--support-->
-                <section>
-                    <h1>TƯ VẤN HỖ TRỢ</h1>
-                    <ul>
-                        <li>
-                            <article>
-                                <i class="fas fa-user-alt fa-3x"></i>
-                                <h2>Ms. Nguyễn Kiều Diễm</h2>
-                                <img src="./material/online.jpg" alt="online" loading="lazy">
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <i class="fas fa-user-alt fa-3x"></i>
-                                <h2>Mr. Hoàng Huy Tuấn</h2>
-                                <img src="./material/online.jpg" alt="online" loading="lazy">
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <i class="fas fa-user-alt fa-3x"></i>
-                                <h2>Email</h2>
-                                <p>
-                                    <span style="color: red; font-weight: bold;">
-                                        support@violetonwednesday.com
-                                    </span>
-                                </p>
-                            </article>
-                        </li>
-                    </ul>
-                    <!--hotline-->
-                    <img src="./material/hotline.jpg" alt="hotline" loading="lazy">
-                </section>
-                <!--discount items-->
-                <section>
-                    <h1>SẢN PHẨM KHUYẾN MÃI</h1>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <article>
-                                    <img src="./material/product1.jpg" alt="flower" loading="lazy">
-                                    <!--discount value-->
-                                    <p>10%</p>
-
-                                    <h2>
-                                        Khai trương hồng phát 2
-                                    </h2>
-                                    <!--code-->
-                                    <p>VS035</p>
-                                    <!--price old-->
+            <!--main-->
+            <section>
+                <h1>TÀI KHOẢN CỦA BẠN</h1>
+                <form method="POST" action="#">
+                    <!-- full tb, 8 rows, 2 cols-->
+                    <table cellspacing="0" cellpadding="10px">
+                        <!--head-->
+                        <thead>
+                            <tr>
+                                <th colspan="2">
+                                    <button type="button" name="account">QUẢN LÝ TÀI KHOẢN</button>
+                                    <button type="button" name="order">QUẢN LÝ ĐƠN HÀNG</button>
+                                    <button type="button" name="password">THAY ĐỔI MẬT KHẨU</button>
+                                </th>
+                            </tr>
+                        </thead>
+                        <!--foot-->
+                        <tfoot>
+                            <tr>
+                                <th>
+                                    <button type="submit" name="update">CẬP NHẬT THÔNG TIN</button>
+                                </th>
+                            </tr>
+                        </tfoot>
+                        <!--body-->
+                        <tbody>
+                            <!--line 0-->
+                            <tr>
+                                <td>
                                     <p>
-                                        <del>890,000 đ</del>
+                                        Bạn có thể cập nhật thông tin của mình tai các trường dưới đây
                                     </p>
-                                    <!--price current-->
                                     <p>
-                                        <span style="color: red; font-weight: bold;">
-                                            807,500 đ
-                                        </span>
+                                        Lưu ý: Những trường có đấu "<span style="color: red;">*</span>" là bắt buộc
                                     </p>
-                                </article>
-                            </a>
-                            <hr>
-                        </li>
-                    </ul>
-                </section>
-                <!--news-->
-                <section>
-                    <h1>TIN TỨC</h1>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <article>
-                                    <img src="./material/product1.jpg" alt="flower" loading="lazy">
-                                    <h2>Hoa tươi VOW khuyến mãi gói event tưng bừng</h2>
-                                    <i class="far fa-calendar-alt"> 18/17/2015</i>
-                                    <hr>
-                                </article>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <!--payment method-->
-                <section>
-                    <h1>THÔNG TIN THANH TOÁN</h1>
-                    <ul>
-                        <!--cod-->
-                        <li>
-                            <a href="#">
-                                <article>
-                                    <i class="fas fa-check"></i>
-                                    <h2> COD</h2>
-                                    <hr>
-                                </article>
-                            </a>
-                        </li>
-                        <!--shop-->
-                        <li>
-                            <a href="#">
-                                <article>
-                                    <i class="fas fa-check"></i>
-                                    <h2> Tại Shop</h2>
-                                    <hr>
-                                </article>
-                            </a>
-                        </li>
-                        <!-- banking-->
-                        <li>
-                            <a href="#">
-                                <article>
-                                    <i class="fas fa-check"></i>
-                                    <h2> Chuyển khoản</h2>
-                                    <hr>
-                                </article>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <!--Connect-->
-                <section>
-                    <h1>KẾT NỐI VỚI VOW</h1>
-                </section>
-            </div>
+                                </td>
+                            </tr>
+                            <!--line 1-->
+                            <tr>
+                                <!--col 1-->
+                                <td>
+                                    <label for="fullname">Họ và tên</label>
+                                    <input type="text" id="fullname" name="fullname" required placeholder="Họ và tên"
+                                        value="Nguyễn Văn A" autofocus>
+                                </td>
+                                <!--col 2-->
+                                <td>
+                                    <label for="dob">Ngày sinh</label>
+                                    <div>
+                                        <input type="date" id="dob" name="dob" value="1990-01-01">
+                                        <button type="button" name="calendar">
+                                            <i class="far fa-calendar-alt"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--line 2-->
+                            <tr>
+                                <!--col 1-->
+                                <td>
+                                    <label for="city">Tỉnh - Thành phố</label>
+                                    <input type="text" id="city" name="city" required placeholder="Thành phố của bạn"
+                                        value="TP. Hồ Chí Minh">
+                                </td>
+                                <!--col 2-->
+                                <td>
+                                    <label for="corp">Công ty</label>
+                                    <input type="text" id="corp" name="corp" placeholder="Công ty của bạn">
+                                </td>
+                            </tr>
+                            <!--line 3-->
+                            <tr>
+                                <!--col 1-->
+                                <td>
+                                    <label for="district">Quận - Huyện</label>
+                                    <input type="text" id="district" name="district" required placeholder="Quận - Huyện"
+                                        value="Quận 5">
+                                </td>
+                                <!--col 2-->
+                                <td>
+                                    <label for="pos">Chức vụ</label>
+                                    <input type="text" id="pos" name="pos" placeholder="Chức vụ tại công ty">
+                                </td>
+                            </tr>
+                            <!--line 4-->
+                            <tr>
+                                <!--col 1-->
+                                <td>
+                                    <label for="address">Địa chỉ</label>
+                                    <input type="text" id="address" name="address" required placeholder="Địa chỉ"
+                                        value="271/2 An Dương Vương, Phường 3, Quận 5, TP. Hồ Chí Minh">
+                                </td>
+                                <!--col 2-->
+                                <td>
+                                    <label for="fav_type">Bạn thích Loại hoa</label>
+                                    <input type="text" id="fav_type" name="fav_type" placeholder="Hoa hồng, Hoa lan...">
+                                </td>
+                            </tr>
+                            <!--line 5-->
+                            <tr>
+                                <!--col 1-->
+                                <td>
+                                    <label for="tel">Số điện thoại</label>
+                                    <input type="number" id="tel" name="tel" required placeholder="Số điện thoại"
+                                        value="0973 371 346">
+                                </td>
+                                <!--col 2-->
+                                <td>
+                                    <label for="fav_col">Bạn thích Màu hoa</label>
+                                    <input type="text" id="fav_col" name="fav_col" placeholder="Màu đỏ, Màu tím...">
+                                </td>
+                            </tr>
+                            <!--line 6-->
+                            <tr>
+                                <!--col 1-->
+                                <td>
+                                    <label for="tel">Số điện thoại</label>
+                                    <input type="number" id="tel" name="tel" required placeholder="Số điện thoại"
+                                        value="0973 371 346">
+                                </td>
+                                <!--col 2-->
+                                <td>
+                                    <label for="fav_col">Bạn thích Màu hoa</label>
+                                    <input type="text" id="fav_col" name="fav_col" placeholder="Màu đỏ, Màu tím...">
+                                </td>
+                            </tr>
+                            <!--line 7-->
+                            <tr>
+                                <!--col 1-->
+                                <td>
+                                    <label for="mail">Email</label>
+                                    <input type="email" id="mail" name="mail" required placeholder="Email"
+                                        value="nguyenvana@gmail.com">
+                                </td>
+                                <!--col 2-->
+                                <td>
+                                    <label for="style">Phong cách cắm hoa</label>
+                                    <input type="text" id="style" name="style"
+                                        placeholder="Cổ điển, Hiện đại, Đơn giản, Dễ thương...">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </section>
 
             <!--service-->
             <div>
                 <article>
-                    <i class="fas fa-truck fa-flip-horizontal fa-3x"></i>
+                    <div>
+                        <i class="fas fa-truck fa-flip-horizontal fa-3x"></i>
+                    </div>
                     <h1>GIAO HÀNG MIỄN PHÍ</h1>
                     <P>Chúng tôi giao hàng miễn phí trong nội thành</P>
                 </article>
 
                 <article>
-                    <i class="fas fa-comments fa-3x"></i>
-                    <h1>TƯ VẤN TẬN TÂM</h1>
+                    <div>
+                        <i class="fas fa-comments fa-3x"></i>
+                    </div>
+                    <h1>GIAO HÀNG MIỄN PHÍ</h1>
                     <P>Mang đến cho Quý Khách những sản phẩm tốt nhất</P>
                 </article>
 
                 <article>
-                    <i class="fas fa-dollar-sign fa-3x"></i>
-                    <h1>GIÁ THÀNH TỐT NHẤT</h1>
+                    <div>
+                        <i class="fas fa-dollar-sign fa-3x"></i>
+                    </div>
+                    <h1>GIAO HÀNG MIỄN PHÍ</h1>
                     <P>Cam kết giá thành & dịch vụ sau bán hàng tốt nhất</P>
                 </article>
             </div>

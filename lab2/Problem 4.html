@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Registration form</title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/7de8aab842.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <main>
+            <form method="POST" action="#">
+                <table cellpadding="5px" cellspacing="0" border="1px">
+                    <!--footer-->
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">
+                                <!--Submit-->
+                                <button type="submit" name="submit" tabindex="18">
+                                    Submit
+                                </button>
+
+                                <!--Reset-->
+                                <button type="reset" name="reset" tabindex="19">
+                                    Clear This Form
+                                </button>
+
+                            </th>
+                        </tr>
+                    </tfoot>
+                    <!--body-->
+                    <tbody>
+                        <!--Last name-->
+                        <tr>
+                            <th>
+                                <label for="lastname">Last Name</label>
+                            </th>
+                            <td>
+                                <input type="text" id="lastname" name="lastname" required tabindex="1" value="Nakov"
+                                    autofocus>
+                            </td>
+                        </tr>
+                        <!--First name-->
+                        <tr>
+                            <th>
+                                <label for="firstname">First Name</label>
+                            </th>
+                            <td>
+                                <input type="text" id="firstname" name="firstname" required tabindex="2"
+                                    value="Svetlin">
+                            </td>
+                        </tr>
+                        <!--Address-->
+                        <tr>
+                            <th>
+                                <label for="address">Address</label>
+                            </th>
+                            <td>
+                                <textarea id="address" name="address" required tabindex="3">
+                                    17 Hristo Botev Str. floor3, aot. 12
+                                </textarea>
+                            </td>
+                        </tr>
+                        <!--City-->
+                        <tr>
+                            <th>
+                                <label for="city">Address</label>
+                            </th>
+                            <td>
+                                <table cellpadding="5px" cellspacing="0" border="1px">
+                                    <tbody>
+                                        <tr>
+                                            <!-- city field-->
+                                            <td>
+                                                <input type="text" id="city" name="city" required tabindex="4"
+                                                    value="Kaspitan">
+                                            </td>
+                                            <!-- State -->
+                                            <th>
+                                                <label for="state">State</label>
+                                            </th>
+                                            <!-- state field-->
+                                            <td>
+                                                <input type="text" id="state" name="state" required tabindex="5"
+                                                    value="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--zip code-->
+                        <tr>
+                            <th>
+                                <label for="zip">Zip/Postal COde</label>
+                            </th>
+                            <td>
+                                <input type="number" id="zip" name="zip" required tabindex="6" value="9325">
+                            </td>
+                        </tr>
+                        <!--country-->
+                        <tr>
+                            <th>
+                                <label for="country">Country</label>
+                            </th>
+                            <td>
+                                <select name="country" id="country" tabindex="7">
+                                    <option value="Serbia">Serbia</option>
+                                    <option value="Bulgaria" selected>Bulgaria</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <!--phone number-->
+                        <tr>
+                            <th>
+                                <label for="cc">Phone (country code. area code, number)</label>
+                            </th>
+
+                            <td>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>(+</td>
+                                            <!--country code-->
+                                            <td>
+                                                <input type="number" id="cc" name="cc" required tabindex="8"
+                                                    value="359">
+                                            </td>
+                                            <td>)</td>
+                                            <!--area code-->
+                                            <td>
+                                                <input type="number" id="ac" name="ac" required tabindex="9" value="88">
+                                            </td>
+                                            <td>-</td>
+                                            <!--number-->
+                                            <td>
+                                                <input type="number" id="number" name="number" required tabindex="10"
+                                                    value="8334343">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--email-->
+                        <tr>
+                            <th>
+                                <label for="mail">E-mail</label>
+                            </th>
+                            <td>
+                                <input type="email" id="mail" name="mail" required tabindex="11"
+                                    value="navkov@kaschan.org">
+                            </td>
+                        </tr>
+                        <!--birthdate-->
+                        <tr>
+                            <th>
+                                <label for="month">Birth date</label>
+                            </th>
+
+                            <td>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Month</td>
+                                            <td>
+                                                <input type="number" id="month" name="month" min="1" max="12" required
+                                                    tabindex="12" value="06">
+                                            </td>
+                                            <td>Day</td>
+                                            <td>
+                                                <input type="number" id="day" name="day" min="1" max="31" required
+                                                    tabindex="13" value="14">
+                                            </td>
+                                            <td>Year (4 digit)</td>
+                                            <td>
+                                                <input type="number" id="year" name="year" min="1900" max="2021"
+                                                    required tabindex="14" value="1980">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--gender-->
+                        <tr>
+                            <th>
+                                <label for="gender">Gender</label>
+                            </th>
+                            <td>
+                                <select name="gender" id="gender" tabindex="15">
+                                    <option value="Female">Female</option>
+                                    <option value="Male" selected>Male</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <!--starting date-->
+                        <tr>
+                            <th>
+                                <label for="summer">Starting date</label>
+                            </th>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" id="spring" name="start" title="Spring 2006"
+                                                value="srping" checked tabindex="16">
+                                        </td>
+                                        <th>
+                                            <label for="spring">Spring 2006</label>
+                                        </th>
+                                        <td>
+                                            <input type="radio" id="summer" name="start" title="Summer 2006"
+                                                value="summer">
+                                        </td>
+                                        <th>
+                                            <label for="summer">Summer 2006</label>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--comment-->
+                        <tr>
+                            <th>
+                                <label for="commnet">Comments/Questions</label>
+                            </th>
+                            <td>
+                                <textarea id="commnet" name="commnet" tabindex="17">
+                                    Please send me more information about the lodging
+                                </textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </main>
+    </body>
+
+</html>

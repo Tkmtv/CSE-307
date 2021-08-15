@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML Form</title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/7de8aab842.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <main>
+            <form method="GET" action="#">
+                <table>
+                    <!--line 1-->
+                    <tr>
+                        <th>
+                            <label for="name">Member name:</label>
+                        </th>
+                        <td>
+                            <input type="text" id="name" name="name" required tabindex="1" autofocus>
+                        </td>
+                    </tr>
+                    <!--line 2-->
+                    <tr>
+                        <th>
+                            <label for="email">Email:</label>
+                        </th>
+                        <td>
+                            <input type="email" id="email" name="email" required tabindex="2">
+                        </td>
+                    </tr>
+                    <!--line 3-->
+                    <tr>
+                        <th>
+                            <label for="school">School:</label>
+                        </th>
+                        <td>
+                            <input type="text" id="school" name="school" required tabindex="3">
+                        </td>
+                    </tr>
+                    <!-- line 4-->
+                    <tr>
+                        <td>
+                            <button type="submit">
+                                <img src="./resource/submit.jpg" alt="submit" loading="lazy"> 
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+    </body>
+
+</html>
