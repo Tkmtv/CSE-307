@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(169, 169, 169);
+  font-family: "Times New Roman" !important;
+  font-weight: 600;
+}
+
+header,
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: rgb(250, 250, 210);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(250, 250, 210);
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li,
+header li a {
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(210, 210, 210);
+  color: white;
+}
+
+li:last-child {
+  text-decoration: underline;
+}

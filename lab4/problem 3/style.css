@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.wrapper {
+    margin: 0 auto 0 auto !important;
+    width: 35%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 15px
+}
+h1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+.contain {
+    display: flex;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(193, 193, 193);
+    background-color: white;
+    padding: 15px;
+    margin: 30px 0;
+}
+.contain img {
+    width: auto;
+    height: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(193, 193, 193);
+    margin: 0 15px 0 0;
+}
+.contain p {
+    margin: 0;
+    padding: 0;
+}
+.contain .button_panel {
+    border: 0;
+    float: right;
+    margin: 10px 0 0 0;
+    padding: 0px;
+}
+.contain .listen{
+    background-image: url('../resource/Problem 4 - Music Categories/listen.png');
+    padding: 5px 25px 5px 25px;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.contain .add{
+    background-image: url('../resource/Problem 4 - Music Categories/add.png');
+    padding: 5px 25px 5px 25px;
+    color: white;
+    cursor: pointer;
+}

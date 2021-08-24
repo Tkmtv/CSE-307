@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>LinkedIn</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- logo-->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- col 1-->
+          <div class="col-md-4">
+            <h1>
+              <a href="#" class="head">LinkedIn</a>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!-- nav menu-->
+      <nav>
+        <div class="container-fluid">
+          <ul class="nav_menu">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">What is LinkedIn</a>
+            </li>
+            <li>
+              <a href="#">Join Today</a>
+            </li>
+
+            <li>
+              <form method="POST" action="#" class="login_form">
+                <fieldset class="form-group border p-3">
+                  <legend class="w-auto px-2">Sign In</legend>
+                  <ul>
+                    <li>
+                      <label for="si_email">Email:</label>
+                      <input id="si_email" name="si_email" type="email" required />
+                    </li>
+                    <li>
+                      <label for="si_pass">Password:</label>
+                      <input id="si_pass" name="si_pass" type="password" required />
+                    </li>
+                    <li>
+                      <button class="btn" type="submit" name="signIn">
+                        Sign In
+                      </button>
+                    </li>
+                  </ul>
+                </fieldset>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <article>
+        <h2>
+          Over 175 mil professionals use LinkedIn to exchange information, ideas
+          and opportunities
+        </h2>
+        <ul>
+          <li>Stay informed about your contacts and industry</li>
+          <li>Find the people & knowledge you need to archive your goals</li>
+          <li>Control your professionals identity online</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Join LinkedIn Today</h2>
+        <ul>
+          <form method="POST" action="#" class="signup_form">
+            <fieldset class="form-group border p-3">
+              <legend class="w-auto px-2">Sign Up</legend>
+              <ul>
+                <!--first name-->
+                <li>
+                  <label for="su_fname">First Name:</label>
+                  <input id="su_fname" name="su_fname" type="text" required />
+                </li>
+                <!--last name-->
+                <li>
+                  <label for="su_lname">Last Name:</label>
+                  <input id="su_lname" name="su_lname" type="text" required />
+                </li>
+                <!--email-->
+                <li>
+                  <label for="su_mail">Email:</label>
+                  <input id="su_mail" name="su_mail" type="email" required />
+                </li>
+                <!--password-->
+                <li>
+                  <label for="su_pass">Password:</label>
+                  <input id="su_pass" name="su_pass" type="password" required />
+                  <p>6 or more characters</p>
+                </li>
+              </ul>
+              <button class="btn" type="submit" name="signup">Join Now</button>
+              <div>
+                <p class="flex_box">Already on LinkedIn?</p>
+                <a href="#">Sign in</a>
+              </div>
+            </fieldset>
+          </form>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Search for someone by name:</h2>
+        <form method="GET" action="#">
+          <ul>
+            <li>
+              <label for="search_fname">First Name</label>
+              <input
+                id="search_fname"
+                name="search_fname"
+                placeholder="First Name"
+                required
+              />
+            </li>
+            <li>
+              <label for="search_lname">First Name</label>
+              <input
+                id="search_lname"
+                name="search_lname"
+                placeholder="First Name"
+                required
+              />
+            </li>
+          </ul>
+          <button class="btn" stype="submit" name="search">Go</button>
+        </form>
+      </article>
+    </main>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

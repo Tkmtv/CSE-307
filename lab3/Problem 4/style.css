@@ -1,0 +1,61 @@
+html {
+  box-sizing: content-box !important;
+}
+
+table,
+th,
+td {
+  margin: 0;
+  padding: 10px 50px 10px 5px;
+  width: 500px;
+  background-color: rgb(89, 89, 89);
+  text-align: left;
+  border-collapse: collapse;
+  vertical-align: text-top;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: rgb(174, 174, 174);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.lbl {
+  color: rgb(227, 220, 200);
+  font-style: italic;
+  font-size: 16px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.user_info,
+.user_info a {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(231, 222, 167);
+  text-decoration: none;
+}
+
+.warning {
+  padding-top: 0;  
+  font-size: 16px;
+  color: rgb(216, 28, 38);
+}
+
+.response {
+  font-size: 16px;
+  color: rgb(174, 174, 174);
+}
+
+.status {
+  font-size: 16px;
+  color: rgb(175, 99, 56);
+}

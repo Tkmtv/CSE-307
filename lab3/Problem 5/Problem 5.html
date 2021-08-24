@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>International Employees</title>
+  </head>
+
+  <body>
+    <main>
+      <table cellspacing="0" cellpadding="0">
+        <colgroup>
+          <col span="1" style="width: 30%" />
+          <col span="1" style="width: 25%" />
+          <col span="1" style="width: 25%" />
+          <col span="1" style="width: 20%" />
+        </colgroup>
+        <!--head-->
+        <thead>
+          <tr>
+            <th>Contact name</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Is Promoted</th>
+          </tr>
+        </thead>
+        <!--body-->
+        <tbody>
+          <!--4 rows, 4 cols-->
+          <!--rows 1-->
+          <tr>
+            <!--col 1-->
+            <td class="name">Maria Anders</td>
+            <!--col 2-->
+            <td class="city">Berlib</td>
+            <!--col 3-->
+            <td class="country">
+              <img src="./resource/germany.png" alt="ger" loading="lazy" />
+              <p>Germany</p>
+            </td>
+            <!--col 4-->
+            <td class="promoted">
+              <input type="checkbox" name="promoted" id="promoted" />
+            </td>
+          </tr>
+
+          <!--rows 2-->
+          <tr>
+            <!--col 1-->
+            <td class="name">Ana Trujillo</td>
+            <!--col 2-->
+            <td class="city">México D.F.</td>
+            <!--col 3-->
+            <td class="country">
+              <img src="./resource/mexico.png" alt="mex" loading="lazy" />
+              <p>Mexico</p>
+            </td>
+            <!--col 4-->
+            <td class="promoted">
+              <input type="checkbox" name="promoted" id="promoted" />
+            </td>
+          </tr>
+
+          <!--rows 3-->
+          <tr>
+            <!--col 1-->
+            <td class="name">Antonio Moreno</td>
+            <!--col 2-->
+            <td class="city">México D.F.</td>
+            <!--col 3-->
+            <td class="country">
+              <img src="./resource/mexico.png" alt="mex" loading="lazy" />
+              <p>Mexico</p>
+            </td>
+            <!--col 4-->
+            <td class="promoted">
+              <input type="checkbox" name="promoted" id="promoted" checked />
+            </td>
+          </tr>
+
+          <!--rows 4-->
+          <tr>
+            <!--col 1-->
+            <td class="name">Thomas Hardy</td>
+            <!--col 2-->
+            <td class="city">London</td>
+            <!--col 3-->
+            <td class="country">
+              <img src="./resource/uk.png" alt="uk" loading="lazy" />
+              <p>UK</p>
+            </td>
+            <!--col 4-->
+            <td class="promoted">
+              <input type="checkbox" name="promoted" id="promoted" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

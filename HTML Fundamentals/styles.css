@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+div {
+	margin-bottom: 40px;
+	padding: 15px;
+	/*border: 1px solid #ccc;*/
+	/*border-radius: 8px;*/
+}
+img {
+	max-width: 300px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 64px;
+}
+/**/
+.go-top {
+	display: inline-block;
+	/*padding: 10px;*/
+	line-height: 50px;
+	background-color: #106A39;
+	color: #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	right: 50px;
+	bottom: 100px;
+}
+/**/
+.nav {
+	list-style: none;
+	background-color: #ccc;
+	height: 50px;
+}
+.nav:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.nav li {
+	float: left;
+}
+.nav li i.fa {
+	margin-right: 5px;
+}
+.nav a {
+	height: 50px;
+	display: inline-block;
+	color: #111;
+	line-height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+}
+.nav .active a,
+.nav li:hover a {
+	background-color: #106A39;
+	color: #fff;
+	text-decoration: none;
+}
+#company-name {
+	color: #106A39;
+	font-size: 56px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.section-2-detail {
+	text-align: justify;
+}
+.section_2 img {
+	width: 100%;
+	max-width: 95%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.section_2 .move-top {
+	margin-top: -50px;
+}
+/* Golf Service */
+.section_3 {
+	/*background-image: url("images/slider-04_optimized.jpg");*/
+}
+.service-item {
+	border: 1px #ccc solid;
+	/*max-width: 330px;*/
+	border-radius: 4px;
+	padding: 0px;
+	position: relative;
+	/*overflow: scroll;*/
+}
+.service-item > span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #ff7f14;
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff;
+}
+.service-item > img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.service-item .title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.service-item > p {
+	text-align: center;
+	color: #666;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+	background-color: #333333;
+}
+@media (max-width: 575.98px) {
+	#company-name {
+		font-size: 36px;
+	}
+}

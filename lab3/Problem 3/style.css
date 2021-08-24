@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+}
+
+.nav_menu {
+  display: block;
+  padding: 0;
+  margin: 0 50px 0 50px;
+  list-style-type: disc;
+}
+
+header {
+  margin: 0 20px 0 20px;
+  padding-bottom: 20px;
+  border: 0;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+legend {
+  /*fixing legend */
+  float: none;
+}
+
+.btn {
+  border: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px 0;
+}
+
+main {
+  margin: 0 20px 0 20px !important;
+}
+
+.login_form {
+  list-style-type: circle;
+}
+
+.signup_form {
+  display: block !important;
+}
+
+.signup_form ul {
+  width: 200px;
+}
+
+.flex_box {
+  display: inline-flex;
+}
+
+h1, h2 {
+  font-weight: 600;
+}

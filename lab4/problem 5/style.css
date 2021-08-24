@@ -1,0 +1,108 @@
+html {
+  font-size: 15px !important;
+}
+
+nav {
+  background-color: #294a70;
+  border-color: #f4a024;
+  border-style: solid;
+  border-width: 0 0 5px 0;
+  margin: 50px auto;
+}
+
+.container-md {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.nav_container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.parent {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav_item {
+  padding: 0 30px;
+  min-height: 50px;
+}
+
+.parent > .nav_item {
+  border-left: 1px solid white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.parent > .nav_item:last-of-type {
+  border-right: 1px solid white;
+}
+
+.parent > .has_child {
+  padding: 0 0 0 30px !important;
+}
+
+.parent > .has_child::after {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  color: white;
+  padding: 15px;
+}
+
+.parent > .nav_item > a {
+  display: flex;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+}
+
+.parent .nav_item:hover {
+  background-color: #f4a024;
+  cursor: pointer;
+}
+
+.child {
+  display: none;
+  background-color: #294a70;
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  right: -58px;
+  list-style-type: none;
+  overflow: hidden;
+  box-shadow: 0px 1px 1px black;
+}
+
+.parent .nav_item:hover .child {
+  display: block;
+}
+
+.child > .nav_item {
+  padding: 10px;
+  display: block;
+  border-bottom: 1px solid white;
+}
+
+.child > .nav_item > a {
+  display: block;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  font-weight: 600;
+  box-sizing: content-box;
+  margin: 5px;
+}

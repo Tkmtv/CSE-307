@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-size: 24px;
+  width: 860px;
+  height: auto;
+  margin: 20px auto;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Times New Roman' !important;
+}
+
+header {
+  background-color: rgb(59, 59, 59);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-style: solid;
+  border-color: rgb(59, 59, 59);
+}
+.login_form {
+  padding: 0 15px 25px 15px;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.lbl {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  padding: 0 0 0 10px;
+  border-radius: 0;
+}
+.submit_btn {
+  padding: 0;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+.submit_btn img {
+  padding: 0;
+  margin: 0;
+  width: 120%;
+  height: 120%;
+}
+main {
+  background-color: rgb(59, 59, 59);
+  border: rgb(59, 59, 59);
+  border-top-width: 1px;
+  border-top-style: groove;
+  border-top-color: black;
+  box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.73);
+  text-align: left;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+main h1 {
+    margin: 0;
+    padding: 20px 20px;
+    color: rgb(251, 217, 32);
+    font-size: 42px;
+    font-weight: 500;
+}
+
+main > p {
+    margin: 0;
+    padding: 0 20px;
+    color: rgb(163, 163, 163);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+main p > span {
+    color: white;
+}
+
+main p:last-of-type{
+    padding-bottom: 15px;
+}

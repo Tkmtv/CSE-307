@@ -4,20 +4,12 @@
 	<head>
 		<title>HTML Exercise - 1</title>
 		<meta charset="UTF-8">
+
+		<!-- Bootstrap CSS -->
+		<link href="#" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+			crossorigin="anonymous">
+		<!--FA-->
 		<script src="https://kit.fontawesome.com/7de8aab842.js" crossorigin="anonymous"></script>
-
-
-		<style type="text/css">
-			div {
-				margin-bottom: 40px;
-				padding: 15px;
-				border: 1px solid #ccc;
-				border-radius: 8px;
-			}
-
-			img {
-				max-width: 300px;
-			}
 
 		</style>
 	</head>
@@ -34,66 +26,75 @@
 		<!-- Block 1 -->
 		<header>
 			<div class="section_1">
-				<a href="home.html">
-					<img src="images/logo.png" alt="LaniDani" loading="lazy">
-				</a>
-				<nav>
+				<nav class="container">
+					<a href="#">
+						<img src="images/logo.png" alt="LaniDani" loading="lazy">
+					</a>
 					<ul>
 						<li>
-							<a href="home.html">TRANG CHỦ</a>
+							<a href="#">TRANG CHỦ</a>
 						</li>
 						<li>
-							<a href="golf_service.html">DỊCH VỤ GOLF</a>
+							<a href="#">DỊCH VỤ GOLF</a>
 						</li>
 						<li>
-							<a href="other_service.html">DỊCH VỤ KHÁC</a>
+							<a href="#">DỊCH VỤ KHÁC</a>
 						</li>
 						<li>
-							<a href="news.html">TIN TỨC</a>
+							<a href="#">TIN TỨC</a>
 						</li>
 						<li>
-							<a href="construction.html">CÔNG TRÌNH</a>
+							<a href="#">CÔNG TRÌNH</a>
 						</li>
 						<li>
-							<a href="about_us.html">GIỚI THIỆU</a>
+							<a href="#">GIỚI THIỆU</a>
 						</li>
 						<li>
-							<a href="contact.html">LIÊN HỆ</a>
+							<a href="#">LIÊN HỆ</a>
 						</li>
 						<li>
-							<a href="contact.html">TIẾNG VIỆT 🇻🇳</a>
+							<a href="#">TIẾNG VIỆT 🇻🇳</a>
 						</li>
 					</ul>
 				</nav>
-
 			</div>
 		</header>
 
 		<main>
 			<!-- Block 2 -->
 			<article class="section_2">
-				<!--text-->
-				<p>
-					<b>Chúng tôi là ai?</b>
-				</p>
-				<h1>
-					<b>Công ty LANI & DANI</b>
-				</h1>
-				<p>
-					<b>Tự hào là công ty đầu tiên tại Việt Nam cung cấp dịch vụ trọn gói</b> trong
-					lĩnh vực tư vấn, thiết kế, xây dựng sân Golf, cung ứng nguồn lực, dịch vụ
-					huấn luyện, quản lý và hậu cần cho dịch vụ Golf.
-				</p>
-				<p>
-					Chúng tôi còn hoạt động trong lĩnh vực xây lắp và đầu tư xây dựng các công
-					trình dân dụng, nhà xưởng công nghiệp, công trình hạ tần kỹ thuật, đườn
-					giao thông, cầu cảng, bờ kè, cầu cống, nạo vét sông rạch, xây dựng các công trình
-					thủy lợi, thi công san lấp mặt bằng, sản xuất và kinh doanh vật liệu xây dựng.
-				</p>
-				<!--pic-->
-				<img src="./images/introduction-gilf.jpg" alt="female" loading="lazy">
-				<img src="./images/introduction-man.jpg" alt="male" loading="lazy">
+				<div class="container">
+					<!--text-->
+					<div class="col col_1">
+						<p>
+							<b>Chúng tôi là ai?</b>
+						</p>
+						<h1>
+							<b>Công ty LANI & DANI</b>
+						</h1>
+						<p>
+							<b>Tự hào là công ty đầu tiên tại Việt Nam cung cấp dịch vụ trọn gói</b> trong
+							lĩnh vực tư vấn, thiết kế, xây dựng sân Golf, cung ứng nguồn lực, dịch vụ
+							huấn luyện, quản lý và hậu cần cho dịch vụ Golf.
+						</p>
+						<p>
+							Chúng tôi còn hoạt động trong lĩnh vực xây lắp và đầu tư xây dựng các công
+							trình dân dụng, nhà xưởng công nghiệp, công trình hạ tần kỹ thuật, đườn
+							giao thông, cầu cảng, bờ kè, cầu cống, nạo vét sông rạch, xây dựng các công trình
+							thủy lợi, thi công san lấp mặt bằng, sản xuất và kinh doanh vật liệu xây dựng.
+						</p>
+					</div>
 
+					<!--pic 1-->
+					<div class="col col_2">
+						<img src="./images/introduction-gilf.jpg" alt="female" loading="lazy">
+					</div>
+
+					<!--pic 2-->
+					<div class="col col_3">
+						<img src="./images/introduction-man.jpg" alt="male" loading="lazy">
+					</div>
+				</div>
 			</article>
 
 			<!-- Block 3 -->
@@ -115,7 +116,7 @@
 				<article>
 					<img src="./images/service-design.jpg" alt="design" loading="lazy">
 					<h2>
-						<a href="service-design.html">
+						<a href="#">
 							Thiết Kế
 						</a>
 					</h2>
@@ -128,7 +129,7 @@
 				<article>
 					<img src="./images/service-construction.jpg" alt="construction" loading="lazy">
 					<h2>
-						<a href="construction-service.html">
+						<a href="#">
 							Xây Dựng
 						</a>
 					</h2>
@@ -141,7 +142,7 @@
 				<article>
 					<img src="./images/service-operation.jpg" alt="operation" loading="lazy">
 					<h2>
-						<a href="service-operation">
+						<a href="#">
 							Vận Hành
 						</a>
 					</h2>
@@ -152,7 +153,7 @@
 				<article>
 					<img src="./images/service-maintenance.jpg" alt="service-maintenance" loading="lazy">
 					<h2>
-						<a href="service-maintenance.html">
+						<a href="#">
 							Chăm Sóc Bảo Dưỡng
 						</a>
 					</h2>
@@ -163,7 +164,7 @@
 				<article>
 					<img src="./images/service-training.jpg" alt="training" loading="lazy">
 					<h2>
-						<a href="service-training.html">
+						<a href="#">
 							Huấn Luyện
 						</a>
 					</h2>
@@ -177,7 +178,7 @@
 				<article>
 					<img src="./images/service-lawn-care.jpg" alt="lawn-care" loading="lazy">
 					<h2>
-						<a href="service-lawn-care.html">
+						<a href="#">
 							Chăm Sóc Cỏ
 						</a>
 					</h2>
@@ -207,7 +208,7 @@
 				<article>
 					<img src="./images/house.png" alt="housing" loading="lazy">
 					<h2>
-						<a href="service-housing.html">
+						<a href="#">
 							Xây dựng nhà ở
 						</a>
 					</h2>
@@ -217,7 +218,7 @@
 				<article>
 					<img src="./images/scaffolding.png" alt="scaffolding" loading="lazy">
 					<h2>
-						<a href="construction-civil.html">
+						<a href="#">
 							Xây dựng các công trình kỹ thuật dân dụng
 						</a>
 					</h2>
@@ -227,7 +228,7 @@
 				<article>
 					<img src="./images/drill.png" alt="demolition" loading="lazy">
 					<h2>
-						<a href="service-destroy">
+						<a href="#">
 							Phá dỡ
 						</a>
 					</h2>
@@ -237,7 +238,7 @@
 				<article>
 					<img src="./images/blueprint.png" alt="blueprint" loading="lazy">
 					<h2>
-						<a href="service-wiring">
+						<a href="#">
 							Lắp đặt hệ thống điện, cấp thoát nước, sưởi và điều hòa không khí
 						</a>
 					</h2>
@@ -247,7 +248,7 @@
 				<article>
 					<img src="./images/conversation.png" alt="conversation" loading="lazy">
 					<h2>
-						<a href="service-advise">
+						<a href="#">
 							Hoạt động thiết kế chuyên dụng và tư vấn kỹ thuật liên quan
 						</a>
 					</h2>
@@ -257,7 +258,7 @@
 				<article>
 					<img src="./images/agreement.png" alt="agreement" loading="lazy">
 					<h2>
-						<a href="service-real-estate">
+						<a href="#">
 							Tư vấn môi giới, bán đấu giá bất động sản, đấu giá quyền sử dụng đất
 						</a>
 					</h2>
@@ -267,7 +268,7 @@
 				<article>
 					<img src="./images/location-pin.png" alt="location-pin" loading="lazy">
 					<h2>
-						<a href="service-scenery">
+						<a href="#">
 							Dịch vụ chăm sóc và duy trì cảnh quan
 						</a>
 					</h2>
@@ -277,7 +278,7 @@
 				<article>
 					<img src="./images/demolition.png" alt="machinery" loading="lazy">
 					<h2>
-						<a href="service-machinery">
+						<a href="#">
 							Bán buôn máy móc, thiêt bị, phụ tùng máy
 						</a>
 					</h2>
@@ -314,11 +315,11 @@
 
 				<article>
 					<img src="./images/tree.jpg" alt="golf-field" loading="lazy">
-					<a href="@giaidaugolf">
+					<a href="#">
 						GIẢI ĐẤU GOLF
 					</a>
 					<h2>
-						<a href="news.html">
+						<a href="#">
 							Những lưu ý quan trọng trong các chọn giày golf cho nam
 						</a>
 					</h2>
@@ -336,11 +337,11 @@
 
 				<article>
 					<img src="./images/golfer.jpg" alt="golfer" loading="lazy">
-					<a href="@kythuatgolf">
+					<a href="#">
 						KỸ THUẬT GOLF
 					</a>
 					<h2>
-						<a href="news.html">
+						<a href="#">
 							Cách chọn kính chơi golf bảo vệ mắt tốt nhất
 						</a>
 					</h2>
@@ -360,11 +361,11 @@
 					<li>
 						<article>
 							<img src="./images/scene.jpg" alt="golf-field" loading="lazy">
-							<a href="@kythuatgolf">
+							<a href="#">
 								TƯ VẤN GOLF
 							</a>
 							<h2>
-								<a href="news.html">
+								<a href="#">
 									Golf Course là gì? Có bao nhiêu loại Golf Course?
 								</a>
 							</h2>
@@ -373,11 +374,11 @@
 					<li>
 						<article>
 							<img src="./images/man-in-red.jpg" alt="red-man" loading="lazy">
-							<a href="@kythuatgolf">
+							<a href="#">
 								GIẢI ĐẤU GOLF
 							</a>
 							<h2>
-								<a href="news.html">
+								<a href="#">
 									Cách cắm tee golf đơn giản giúp golfer đánh bóng hiệu quả nhất
 								</a>
 							</h2>
@@ -386,11 +387,11 @@
 					<li>
 						<article>
 							<img src="./images/people.jpg" alt="people" loading="lazy">
-							<a href="@kythuatgolf">
+							<a href="#">
 								KỸ THUẬT GOLF
 							</a>
 							<h2>
-								<a href="news.html">
+								<a href="#">
 									Điểm Hole in One trong golf nghĩa là gì?
 								</a>
 							</h2>
@@ -431,13 +432,13 @@
 				</p>
 				<ul>
 					<li>
-						<a href="skill.html">Kỹ thuật Golf</a>
+						<a href="#">Kỹ thuật Golf</a>
 					</li>
 					<li>
-						<a href="tournament">Giải đấu Golf</a>
+						<a href="#">Giải đấu Golf</a>
 					</li>
 					<li>
-						<a href="advision">Tư vấn Golf</a>
+						<a href="#">Tư vấn Golf</a>
 					</li>
 				</ul>
 			</div>
@@ -468,6 +469,11 @@
 				</a>
 			</div>
 		</footer>
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+			crossorigin="anonymous"></script>
 	</body>
 
 </html>

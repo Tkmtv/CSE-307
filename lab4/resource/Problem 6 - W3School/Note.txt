@@ -1,0 +1,1 @@
+You should use Font Awesome instead of a "Home" image.

@@ -1,0 +1,113 @@
+.outer {
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+  width: 600px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 0px 0px 5px 0px #bbb;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.tag {
+  margin-left: 25px;
+  color: rgb(85, 124, 163);
+  font-weight: 700;
+  font-size: 12px;
+  position: relative;
+}
+
+.tag::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  left: 5px;
+  top: 2px;
+  bottom: 2px;
+  transform: skew(-25deg);
+  -webkit-transform: skew(-25deg);
+  -khtml-transform: skew(-25deg);
+  background-color: #dd3333;
+  margin-left: -20px;
+}
+
+h1, h1 a {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  margin: 5px 0 0 0;
+}
+
+.poster > * {
+  display: inline-block;
+  font-weight: 500;
+  margin: 0;
+}
+
+.time {
+  font-size: 12px;
+  color: rgb(204, 196, 194);
+}
+
+.category {
+  color: rgb(149, 156, 159);
+  font-size: 14px;
+}
+
+.content, .content a {
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+}
+
+.zing {
+  border-top: 1px dashed black;
+  padding: 10px 0 0 0;
+}
+
+.sub_menu {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0 0 0 15px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.sub_menu a {
+  color: black;
+}
+
+.tinhte {
+  margin-top: 10px;
+}
+.tinhte img {
+  width: 5%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.tinhte a {
+  color: rgb(33, 195, 224);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 5px 0 5px;
+}
+
+.tinhte ul {
+  display: inline-flex;
+  padding: 0;
+  list-style-type: '-';
+}
+
+.tinhte li {
+  padding-left: 2px;
+}
+
+.tinhte li:last-child {
+  margin-left: 10px;
+}

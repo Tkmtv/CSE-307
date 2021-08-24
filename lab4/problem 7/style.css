@@ -1,0 +1,26 @@
+.outer {
+  width: 720px;
+  margin: 50px auto;
+}
+
+.search_bar {
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 120px;
+  height: 40px;
+  text-align: left;
+  padding: 0 0 0 35px;
+  font-size: 18px;
+}
+
+input[type="search"] {
+  background-image: url("https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png?fbclid=IwAR3GLt-HR2a2-qNu48vaA-R_53YoyVuJxgVWfAlASfxp6m4ROCyAqkAwKJY");
+  background-repeat: no-repeat;
+  background-position: 10px 12px;
+}
+
+.search_bar:focus {
+  width: 400px;
+}

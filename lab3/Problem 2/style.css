@@ -1,0 +1,73 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    display: block;
+}
+
+.head {
+    color: black;
+    font-size: 32px;
+}
+
+.head a {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.head h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.head div {
+    align-items: baseline;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none
+}
+
+nav {
+    background-color: blue;
+    border-color: orange;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+}
+
+ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    margin: 0;
+    border-color: white;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+}
+
+li:last-of-type {
+    border-color: white;
+    border-style: solid;
+    border-width: 0 1px 0 1px;
+}
+
+li a {
+    display: inline-block;
+    padding: 6px 20px;
+    margin: 0;
+    color: white;
+}
+
+li:hover>a {
+    background-color: orange;
+    color: white;
+}

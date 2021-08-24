@@ -1,0 +1,24 @@
+.outer {
+  width: 240px;
+  height: 320px;
+  margin: 50px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px 0px black;
+}
+
+.outer img {
+  width: 240px;
+}
+
+.outer .name,
+.outer .job {
+  margin: 0;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.outer:hover {
+  box-shadow: 0px 2px 21px 0px black;
+  cursor: pointer;
+}

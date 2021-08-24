@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ticket CSS</title>
+  </head>
+
+  <body>
+    <main>
+      <table>
+        <colgroup>
+          <col span="1" style="width: 35%" />
+          <col span="1" style="width: 65%" />
+        </colgroup>
+        <!--head-->
+        <thead>
+          <tr>
+            <th colspan="2">
+              <h1>Ticket ID: 409788</h1>
+            </th>
+          </tr>
+        </thead>
+        <!--body-->
+        <tbody>
+          <!-- 2 cols, 7 rows-->
+          <!-- r1-->
+          <tr>
+            <!--col 1-->
+            <td rowspan="2" class="lbl">Name:</td>
+            <!--col 2-->
+            <td>
+              <p class="user_info">
+                <span class="dot"></span>
+                Parker Seidel
+              </p>
+            </td>
+          </tr>
+          <!-- r2-->
+          <tr>
+            <td class="warning">No Active Support</td>
+          </tr>
+          <!-- r3-->
+          <tr>
+            <!--col 1-->
+            <td class="lbl">Email:</td>
+            <!--col 2-->
+            <td class="user_info">seidel@aptmail.com</td>
+          </tr>
+          <!-- r4-->
+          <tr>
+            <!--col 1-->
+            <td class="lbl">Response Time:</td>
+            <!--col 2-->
+            <td class="response">72hours, 60hours left</td>
+          </tr>
+          <!-- r5-->
+          <tr>
+            <!--col 1-->
+            <td class="lbl" rowspan="2">Last Action</td>
+            <!--col 2-->
+            <td class="response">Never been locked</td>
+          </tr>
+          <!-- r6-->
+          <tr>
+            <td class="user_info">
+              <a href="#"> Link to public post </a>
+            </td>
+          </tr>
+          <!-- r7-->
+          <tr>
+            <!-- col 1-->
+            <td class="lbl">Status:</td>
+            <!--col 2-->
+            <td class="status">Not answered</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

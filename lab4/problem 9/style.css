@@ -1,0 +1,202 @@
+body {
+  background-color: rgb(241, 241, 241);
+  font-family: Arial, Helvetica, sans-serif !important;
+  white-space: normal;
+  font-size: 18px;
+}
+
+.container-md {
+  border: 2px solid black;
+}
+
+.left {
+  text-align: left;
+}
+
+.left .home {
+  border: 0px;
+  background-color: transparent;
+  height: 50px;
+  font-size: 20px;
+}
+
+.left h1,
+.left h1 a {
+  font-size: 18px;
+  color: rgb(156, 40, 38);
+  margin: 0;
+  font-weight: 600;
+}
+
+.left a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.left ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left li,
+.left li a {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.middle {
+  border: 1px solid gray;
+  margin-top: 5px;
+  background-color: white;
+  height: min-content;
+}
+
+.middle h1 {
+  font-size: 32px;
+  color: black;
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.middle .paging {
+  display: inline-flex;
+  padding: 10px 0;
+  margin: 5px 0;
+  width: 100%;
+  border-bottom: 3px solid rgb(128, 128, 128);
+}
+
+.middle .paging:last-of-type {
+  border-top: 3px solid rgb(128, 128, 128);
+  margin-bottom: 30px;
+}
+
+.middle .prev,
+.middle .next {
+  width: 120px;
+  text-align: center;
+  border: 1px solid black;
+  margin-right: 5px;
+  background-color: white;
+}
+
+.middle .prev:active,
+.middle .next:active {
+  box-shadow: 0px 0px 5px black;
+}
+
+.middle .prev::before {
+  content: "\f0d9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: block;
+  float: left;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.middle .next::after {
+  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: block;
+  float: right;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.middle article {
+    margin: 5px 0;
+}
+
+.middle h2 {
+  color: white;
+  background-color: rgb(128, 128, 128);
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.middle .art_content {
+  display: inline-flex;
+}
+
+.middle .art_content p {
+  font-weight: 600;
+  margin: 10px 0;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.middle a,
+.right a {
+  color: rgb(156, 40, 38);
+  display: block;
+}
+
+.right {
+  margin-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.right h2 {
+  color: white;
+  background-color: rgb(128, 128, 128);
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+
+.right aside > div {
+  border: 1px solid gray;
+  background-color: white;
+  margin-top: 2px;
+  text-align: center;
+  display: block;
+}
+
+.right .search {
+  display: inline-flex;
+  height: 30px;
+}
+
+.right .search input[type="search"] {
+  width: 80%;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.right .aside_content {
+  padding: 5px;
+  display: block;
+}
+
+.right button {
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.right .style_btn {
+  background: rgb(149, 213, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(149, 213, 247, 1) 5%,
+    rgba(211, 239, 254, 1) 10%,
+    rgba(211, 239, 254, 1) 90%,
+    rgba(149, 213, 247, 1) 95%
+  );
+  color: rgb(42, 200, 255);
+  border: 1px solid rgb(112, 161, 198);
+  margin: 5px 10px;
+  padding: 5px;
+  width: 90%;
+}
