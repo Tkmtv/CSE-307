@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <title>Problem 1 - 4</title>
+        <link rel="icon" href="../resource/index.gif" type="image/gif">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <!-- FA 4.7-->
+        <link rel="stylesheet" type="text/css"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </link>
+
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <!--contact-->
+            <div class="header_top">
+                <div class="container-md">
+                    <div class="row">
+                        <!--phone-->
+                        <div class="col-md-3 col-sm-12">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            Hotline: <b>0968 159 239</b> - <b>08.38 409 092</b>
+                        </div>
+                        <!--address-->
+                        <div class="col-md-6 col-sm-12">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            Địa chỉ: <b>01 Nguyễn Cửu Vân, Bình Thạch, TP.HCM</b>
+                        </div>
+                        <!--login-->
+                        <div class="login col-md-3 col-sm-12">
+                            <a href="#" class="signin">Đăng nhập</a>
+                            hoặc
+                            <a href="#" class="signin">Tạo tài khoản mới</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Logo line-->
+            <div class="header_mid">
+                <div class="container-md">
+                    <div class="row justify-content-center">
+                        <!--logo-->
+                        <div class="col-md-7 col-sm-12">
+                            <a href="#">
+                                <img src="../resource/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <!--search box-->
+                        <div class="col-md-3 col-sm-12 align-self-center">
+                            <form method="GET" action="#">
+                                <div class="searchGrp input-group mb-3">
+                                    <input type="search" class="form-control" name="search" placeholder="Tìm kiếm..."
+                                        required>
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <!--cart-->
+                        <div class="col-md-2 col-sm-12 align-self-center">
+                            <div class="cart">
+                                <div class="row">
+                                    <div class="mobile_center d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h5>3 sản phẩm</h5>
+                                            <p class="tt_price">
+                                                1,289,000 đ
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--nav-->
+            <nav>
+                <div class="bg_color">
+                    <div class="container-md">
+                        <div class="nav_default">
+
+                            <!--nav default-->
+                            <ul class="nav_parent">
+                                <!-- trang chu-->
+                                <li>
+                                    <a href="#">trang chủ</a>
+                                </li>
+                                <!-- hoa sinh nhat-->
+                                <li>
+                                    <a href="#">hoa sinh nhật</a>
+                                </li>
+                                <!-- hoa tinh yeu-->
+                                <li>
+                                    <a href="#">hoa tình yêu</a>
+                                </li>
+                                <!-- hoa chuc mung-->
+                                <li>
+                                    <a href="#">hoa chúc mừng</a>
+                                </li>
+                                <!-- hoa van phong-->
+                                <li>
+                                    <a href="#">hoa văn phòng</a>
+                                </li>
+                                <!-- chu de-->
+                                <li>
+                                    <a href="#">chủ đề</a>
+                                </li>
+                                <!-- thiet ke-->
+                                <!-- dropdown-->
+                                <li class="has_child">
+                                    <a href="#">thiết kế</a>
+                                    <ul class="nav_children">
+                                        <!-- canh-->
+                                        <li>
+                                            <a href="#">hoa cành</a>
+                                        </li>
+                                        <!-- bo-->
+                                        <li>
+                                            <a href="#">hoa bó</a>
+                                        </li>
+                                        <!-- lang-->
+                                        <li>
+                                            <a href="#">hoa lẳng</a>
+                                        </li>
+                                        <!-- gio-->
+                                        <li>
+                                            <a href="#">hoa giỏ</a>
+                                        </li>
+                                        <!-- hop-->
+                                        <li>
+                                            <a href="#">hoa hộp</a>
+                                        </li>
+                                        <!-- hinh-->
+                                        <li>
+                                            <a href="#">hoa hình</a>
+                                        </li>
+                                        <!-- ke-->
+                                        <li>
+                                            <a href="#">hoa kệ</a>
+                                        </li>
+                                        <!-- chau-->
+                                        <li>
+                                            <a href="#">hoa chậu</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- the loai-->
+                                <li>
+                                    <a href="#">thể loại</a>
+                                </li>
+                                <!-- qua tang-->
+                                <li>
+                                    <a href="#">quà tặng</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--nav mobile-->
+                        <div class="nav_mobile">
+                            <ul class="nav_parent">
+                                <li>
+                                    <button type="button" name="burger_mn" class="burger_mn">
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                    </button>
+                                    danh mục sản phẩm
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="row g-4">
+                    <!--left side-->
+                    <div class="col-12 col-md-8">
+                        <!--discount-->
+                        <!--header-->
+                        <section class="main_product_grp">
+                            <div class="row gy-4">
+                                <h1>
+                                    sản phẩm khuyến mãi
+                                </h1>
+                                <!-- product-->
+                                <div class="col-6 col-md-3">
+                                    <article>
+                                        <a href="#">
+                                            <img src="../resource/product1.jpg" alt="flower" loading="lazy">
+                                        </a>
+                                        <!--discount value-->
+                                        <span class="discount_val">
+                                            -10%
+                                        </span>
+
+
+                                        <h2>
+                                            <a href="#">
+                                                Khai trương hồng phát 2
+                                            </a>
+                                        </h2>
+                                        <!--code-->
+                                        <p class="id_code">VS035</p>
+                                        <!--price old-->
+                                        <p class="price_old">
+                                            <del>890,000 đ</del>
+                                        </p>
+                                        <!--price current-->
+                                        <p class="price_curr">
+                                            807,500 đ
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!--right side-->
+                    <div class="col-12 col-md-4">
+                        <!--seen product-->
+                        <section class="sub_product_grp">
+                            <h1>sản phẩm vừa xem</h1>
+                            <!-- prodcut-->
+                            <div class="sub_grp_border">
+                                <article>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <a href="#">
+                                                <img src="../resource/product1.jpg" alt="flower" loading="lazy">
+                                            </a>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <!--discount value-->
+                                            <span class="discount_val">
+                                                -10%
+                                            </span>
+                                            <h2>
+                                                <a href="#">
+                                                    Khai trương hồng phát 2
+                                                </a>
+                                            </h2>
+                                            <!--price old-->
+                                            <p class="price_old">
+                                                <del>890,000 đ</del>
+                                            </p>
+                                            <!--price current-->
+                                            <p class="price_curr">
+                                                807,500 đ
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                        <!--news-->
+                        <section class="news">
+                            <h1>tin tức</h1>
+                            <!-- news content-->
+                            <div class="sub_grp_border">
+                                <article>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <a href="#">
+                                                <img src="../resource/news.jpg" alt="flower" loading="lazy">
+                                            </a>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h2>
+                                                <a href="#">Hoa tươi VOW khuyến mãi gói event tưng bừng</a>
+                                            </h2>
+                                            <i class="fa fa-calendar" aria-hidden="true"> 18/17/2015</i>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>
+
+
+        <footer>
+            <!--service-->
+            <div class="container-md">
+                <diV class="sv_border">
+                    <div class="row">
+
+                        <article class="col-12 col-md-4">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h2><a href="#">GIAO HÀNG MIỄN PHÍ</a></h2>
+                                    <p>Chúng tôi giao hàng miễn phí trong nội thành</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-12 col-md-4">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa fa-comments fa-3x" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h2><a href="#">GIAO HÀNG MIỄN PHÍ</a></h2>
+                                    <p>Mang đến cho Quý Khách những sản phẩm tốt nhất</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-12 col-md-4">
+
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa fa-usd fa-3x" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h2><a href="#">GIAO HÀNG MIỄN PHÍ</a></h2>
+                                    <p>Cam kết giá thành & dịch vụ sau bán hàng tốt nhất</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </diV>
+
+            <div class="bg">
+                <div class="container-md">
+                    <div class="row">
+                        <!-- navigation??-->
+                        <div class="col-12 col-md-3">
+                            <div class="_system">
+                                <p>
+                                    <b>HỆ THỐNG</b>
+                                </p>
+                                <span class="divider"></span>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hoa sinh nhật</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hoa cưới</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hoa chúc mừng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chủ dề</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Thiết kế</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hoa theo thể loại</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Quà tặng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- cong ty-->
+                        <div class="col-12 col-md-3">
+                            <div class="about">
+                                <p>
+                                    <b>CÔNG TY</b>
+                                </p>
+                                <span class="divider"></span>
+                                <ul>
+                                    <li>
+                                        <a href="#">Giới thiệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tin tức</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tuyển dụng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dính sách thành viên</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chương trình khuyến mãi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- cong ty2-->
+                        <div class="col-12 col-md-3">
+                            <div class="about">
+                                <p>
+                                    <b>CÔNG TY</b>
+                                </p>
+                                <span class="divider"></span>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hướng dẫn đặt hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Phương thức thanh toán</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Điều khoản mua hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Phí vận chuyển</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Ý nghĩa các loài hoa</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chăm sóc và bảo quản hoa</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- contact-->
+                        <div class="col-12 col-md-3">
+                            <div class="contact">
+                                <p>
+                                    <b>VIOLET ON WEDNESDAY</b>
+                                </p>
+                                <span class="divider"></span>
+
+                                <table>
+                                    <colgroup>
+                                        <col class="col_1" />
+                                        <col class="col_2" />
+                                    </colgroup>
+                                    <tr>
+                                        <th>
+                                            Địa chỉ
+                                        </th>
+                                        <td>
+                                            01 Nguyễn Cửu Vân, Bình Thạch, TP.HCM
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Điện thoại
+                                        </th>
+                                        <td>
+                                            08 38 40 90 92
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Hotline
+                                        </th>
+                                        <td>
+                                            0968 159 239
+                                        </td>
+                                    </tr>
+                                </table>
+                                <b>Mọi ý kiến vui lòng gửi về</b>
+                                support@violetonwednesday.com
+                                <div class="social_site">
+                                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--copyright-->
+            <div class="CR">
+                &copy; 2015 Viotlet on Wednesday Store. All Right Reserved. Sponsored by Letsop Solution.
+            </div>
+
+        </footer>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
