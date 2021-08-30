@@ -1,13 +1,7 @@
-function addLink() {
-    for (var i = 0; i < 10; i++) {
-        var _a = document.createElement("a");
-        var link = document.createTextNode('link');
-        _a.appendChild(link);
-        _a.title = "This is Link"; 
-        _a.href = "#";
-
-        document.body.appendChild(_a); 
+function replaceLink() {
+    let _a = document.getElementsByTagName("a");
+    for (let i of _a) {
+        i.href = "https://google.com";
     }
-
 }
-addLink();
+replaceLink();
