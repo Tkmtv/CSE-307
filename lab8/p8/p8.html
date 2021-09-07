@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<title>Lab 8</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--JQ-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!--boostrap 4.4-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!--FA4.7-->
+		<link rel="stylesheet" type="text/css"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		</link>
+
+		<!--CSS-->
+		<link rel="stylesheet" href="./style.css" />
+
+		<!-- JS -->
+		<script src="./script.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<div class="wrap">
+			<header>
+				<h1>
+					Student Management System
+				</h1>
+			</header>
+
+			<div class="row">
+				<div class="col-3">
+					<aside class="left">
+						<h2>
+							Class List
+						</h2>
+						<ul class="danhSach">
+
+						</ul>
+					</aside>
+				</div>
+
+				<div class="col-9">
+					<main>
+						<section class="search">
+							<div class="input-group mb-3">
+								<input type="text" class="form-control" id="search" placeholder="Search by name ...">
+								<button class="btn btn-outline-secondary" type="button" id="searchBtn">Search</button>
+							</div>
+						</section>
+
+						<section class="newStudents">
+							<div class="card-header">
+								Add a new Student
+							</div>
+
+							<div class="grpElements">
+								<div class="row">
+									<div class="col-2">
+										<input type="text" class="form-control" id="ID" placeholder="ID.." pattern="\d*"
+											required>
+									</div>
+									<div class="col-3">
+										<input type="text" class="form-control" id="FirstName"
+											placeholder="Enter first name" required>
+									</div>
+									<div class="col-3">
+										<input type="text" class="form-control" id="LastName"
+											placeholder="Enter last name" required>
+									</div>
+									<div class="col-2">
+										<select class="form-control" id="Dept"></select>
+									</div>
+									<div class="col-2"><button type="button" class="btn btn-primary"
+											id="Submit">Add</button>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="group-Title">
+							<div class="card-header">
+								Student List
+							</div>
+							<div class="row">
+								<div class="col-1 Title">#</div>
+								<div class="col-4 Title">Full Name</div>
+								<div class="col-4 Title">Student ID</div>
+								<div class="col-3 Title">Function</div>
+							</div>
+						</section>
+
+						<section class="group-List">
+						</section>
+
+						<section class="editor">
+							<div class="overlayMask">
+								<div class="overlayContent">
+
+									<label for="editID">Student ID</label>
+									<input type="text" class="form-control" id="editID" placeholder="ID.."
+										pattern="[0-9]" required readonly>
+
+									<label for="editFirstName">Student FirstName</label>
+									<input type="text" class="form-control" id="editFirstName"
+										placeholder="Enter first name" required>
+
+									<label for="editLastName">Student LastName</label>
+									<input type="text" class="form-control" id="editLastName"
+										placeholder="Enter last name" required>
+
+									<label for="editDept">Student Class</label>
+									<select class="form-control" id="editDept"></select>
+
+									<button type="button" class="btn btn-primary" id="Save">Save & close</button>
+
+									<span class="closeOverlay">
+										<i class="fa fa-times fa-2x" aria-hidden="true"></i>
+									</span>
+								</div>
+							</div>
+						</section>
+					</main>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!--bootstrap-->
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"></script>
+
+
+	</body>
+
+</html>

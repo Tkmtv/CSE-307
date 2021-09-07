@@ -1,0 +1,81 @@
+.wrap {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.left,
+main {
+    border: 1px solid #111;
+    min-height: 500px;
+    padding: 10px;
+}
+
+.left li,
+.left h2 {
+    cursor: pointer;
+}
+
+.Title {
+    font-weight: bold;
+}
+
+ul .danhSach li {
+    cursor: pointer;
+}
+
+.newStudents {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border: 1px solid #333;
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+.grpElements {
+    padding: 0px 10px;
+}
+
+.overlayMask {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    display: none;
+    text-align: center;
+}
+
+.overlayContent {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #ddd;
+    padding: 50px;
+}
+
+.overlayContent > * {
+    margin-bottom: 20px;
+}
+
+.overlayContent > label {
+    margin-bottom: 5px;
+}
+
+.closeOverlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.closeOverlay:hover,
+.closeOverlay:active {
+    color: red;
+    cursor: pointer;
+}
